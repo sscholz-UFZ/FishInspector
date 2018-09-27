@@ -1,0 +1,174 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="3183177622" file="C:\Users\tobi\Documents\Freelancer\UFZ\FishInspector_v.1.03_LICENSE_UPDATED_SEP_2018\implementation\FishInspector.prj" location="C:\Users\tobi\Documents\Freelancer\UFZ\FishInspector_v.1.03_LICENSE_UPDATED_SEP_2018\implementation" name="FishInspector" preferred-package-location="C:\Users\tobi\Documents\Freelancer\UFZ\FishInspector_v.1.03_LICENSE_UPDATED_SEP_2018\implementation\FishInspector\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>FishInspector</param.appname>
+    <param.icon>${PROJECT_ROOT}\FishInspector_resources\icon.ico</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\FishInspector_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\FishInspector_resources\icon_32.png</file>
+      <file>${PROJECT_ROOT}\FishInspector_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\FishInspector_resources\icon_16.png</file>
+    </param.icons>
+    <param.version>1.03</param.version>
+    <param.authnamewatermark>TK Scientific Software Solutions</param.authnamewatermark>
+    <param.email>www.tks3.de</param.email>
+    <param.company>TK Scientific Software Solutions</param.company>
+    <param.summary />
+    <param.description>UFZ
+Helmholtz Centre For Environmental Research</param.description>
+    <param.screenshot>${PROJECT_ROOT}\splash.png</param.screenshot>
+    <param.guid />
+    <param.installpath.string>\TKScientificSoftwareSolutions\FishInspector\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo>${PROJECT_ROOT}\FishInspector_resources\install.png</param.logo>
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\FishInspector\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\FishInspector\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\FishInspector\for_redistribution</param.output>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options>-v</param.user.defined.mcr.options>
+    <param.embed.ctf>true</param.embed.ctf>
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.required.mcr.products>
+      <item>35000</item>
+      <item>35010</item>
+    </param.required.mcr.products>
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>FishInspector_Installer_web32</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>true</param.create.log>
+    <param.log.file>FishInspector.log</param.log.file>
+    <unset>
+      <param.summary />
+      <param.guid />
+      <param.installpath.combo />
+      <param.target.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.enable.clean.build />
+      <param.embed.ctf />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\FishInspector2.m</file>
+    </fileset.main>
+    <fileset.resources />
+    <fileset.package>
+      <file>${PROJECT_ROOT}\external\Licenses</file>
+      <file>${PROJECT_ROOT}\eye-dash-Icon.gif</file>
+      <file>${PROJECT_ROOT}\eye-Icon.gif</file>
+      <file>${PROJECT_ROOT}\gpl.txt</file>
+      <file>${PROJECT_ROOT}\help</file>
+      <file>${PROJECT_ROOT}\icon_48.png</file>
+      <file>${PROJECT_ROOT}\License.txt</file>
+      <file>${PROJECT_ROOT}\loader.gif</file>
+    </fileset.package>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\external\export_fig\copyfig.m</file>
+      <file>${PROJECT_ROOT}\external\export_fig\crop_borders.m</file>
+      <file>${PROJECT_ROOT}\external\export_fig\eps2pdf.m</file>
+      <file>${PROJECT_ROOT}\external\export_fig\export_fig.m</file>
+      <file>${PROJECT_ROOT}\external\export_fig\fix_lines.m</file>
+      <file>${PROJECT_ROOT}\external\export_fig\ghostscript.m</file>
+      <file>${PROJECT_ROOT}\external\export_fig\isolate_axes.m</file>
+      <file>${PROJECT_ROOT}\external\export_fig\pdf2eps.m</file>
+      <file>${PROJECT_ROOT}\external\export_fig\pdftops.m</file>
+      <file>${PROJECT_ROOT}\external\export_fig\print2array.m</file>
+      <file>${PROJECT_ROOT}\external\export_fig\print2eps.m</file>
+      <file>${PROJECT_ROOT}\external\export_fig\read_write_entire_textfile.m</file>
+      <file>${PROJECT_ROOT}\external\export_fig\user_string.m</file>
+      <file>${PROJECT_ROOT}\external\export_fig\using_hg2.m</file>
+      <file>${PROJECT_ROOT}\external\fit_ellipse\fit_ellipse.m</file>
+      <file>${PROJECT_ROOT}\external\inpaintn\inpaintn.m</file>
+      <file>${PROJECT_ROOT}\external\jsonlab-1.2\jsonopt.m</file>
+      <file>${PROJECT_ROOT}\external\jsonlab-1.2\loadjson.m</file>
+      <file>${PROJECT_ROOT}\external\jsonlab-1.2\mergestruct.m</file>
+      <file>${PROJECT_ROOT}\external\jsonlab-1.2\savejson.m</file>
+      <file>${PROJECT_ROOT}\external\jsonlab-1.2\struct2jdata.m</file>
+      <file>${PROJECT_ROOT}\external\jsonlab-1.2\varargin2struct.m</file>
+      <file>${PROJECT_ROOT}\external\WinOnTop\WinOnTop.m</file>
+      <file>${PROJECT_ROOT}\external\wmean\wmean.m</file>
+      <file>${PROJECT_ROOT}\fish_plugin_class.m</file>
+      <file>${PROJECT_ROOT}\fish_plugins\UFZ\bladder_fishPlugin.m</file>
+      <file>${PROJECT_ROOT}\fish_plugins\UFZ\capillary_fishPlugin.m</file>
+      <file>${PROJECT_ROOT}\fish_plugins\UFZ\centralDarkLine_fishPlugin.m</file>
+      <file>${PROJECT_ROOT}\fish_plugins\UFZ\fishContour_fishPlugin.m</file>
+      <file>${PROJECT_ROOT}\fish_plugins\UFZ\fishEye_fishPlugin.m</file>
+      <file>${PROJECT_ROOT}\fish_plugins\UFZ\fishOrientation_fishPlugin.m</file>
+      <file>${PROJECT_ROOT}\fish_plugins\UFZ\getCapilary_v2.m</file>
+      <file>${PROJECT_ROOT}\fish_plugins\UFZ\markup_fishPlugin.m</file>
+      <file>${PROJECT_ROOT}\fish_plugins\UFZ\notochord_fishPlugin.m</file>
+      <file>${PROJECT_ROOT}\fish_plugins\UFZ\otolith_fishPlugin.m</file>
+      <file>${PROJECT_ROOT}\fish_plugins\UFZ\pericard_fishPlugin.m</file>
+      <file>${PROJECT_ROOT}\fish_plugins\UFZ\pigmentation_fishPlugin.m</file>
+      <file>${PROJECT_ROOT}\fish_plugins\UFZ\yolk_fishPlugin.m</file>
+      <file>${PROJECT_ROOT}\FishInspector2.fig</file>
+      <file>${PROJECT_ROOT}\fishobj2.m</file>
+      <file>${PROJECT_ROOT}\myImscrollpanel\imoverviewpanel.m</file>
+      <file>${PROJECT_ROOT}\myImscrollpanel\imscrollpanel.m</file>
+      <file>${PROJECT_ROOT}\myImscrollpanel\private\checkImageHandleArray.m</file>
+      <file>${PROJECT_ROOT}\myImscrollpanel\private\checkimscrollpanel.m</file>
+      <file>${PROJECT_ROOT}\myImscrollpanel\private\createAxesFromTargetAxes.m</file>
+      <file>${PROJECT_ROOT}\myImscrollpanel\private\createImageFromTargetImage.m</file>
+      <file>${PROJECT_ROOT}\myImscrollpanel\private\getCommonAxesProperties.m</file>
+      <file>${PROJECT_ROOT}\myImscrollpanel\private\makeList.m</file>
+      <file>${PROJECT_ROOT}\myImscrollpanel\private\reactToImageChangesInFig.m</file>
+      <file>${PROJECT_ROOT}\myImscrollpanel\private\registerModularToolWithManager.m</file>
+      <file>${PROJECT_ROOT}\pluginHelperFCN.m</file>
+      <file>${PROJECT_ROOT}\tks3_tools\contour_smooth.m</file>
+      <file>${PROJECT_ROOT}\tks3_tools\figure.m</file>
+      <file>${PROJECT_ROOT}\tks3_tools\findfiles.m</file>
+      <file>${PROJECT_ROOT}\tks3_tools\freeSelector.m</file>
+      <file>${PROJECT_ROOT}\tks3_tools\getPeakImage.m</file>
+      <file>${PROJECT_ROOT}\tks3_tools\guitools.m</file>
+      <file>${PROJECT_ROOT}\tks3_tools\imageExportGUI.m</file>
+      <file>${PROJECT_ROOT}\tks3_tools\imunwrap_poly.m</file>
+      <file>${PROJECT_ROOT}\tks3_tools\isdeployed.m</file>
+      <file>${PROJECT_ROOT}\tks3_tools\lineselector.m</file>
+      <file>${PROJECT_ROOT}\tks3_tools\lineselector2.m</file>
+      <file>${PROJECT_ROOT}\tks3_tools\nanmin.m</file>
+      <file>${PROJECT_ROOT}\tks3_tools\parameterPanelClass.m</file>
+      <file>${PROJECT_ROOT}\tks3_tools\PointSelector.m</file>
+      <file>${PROJECT_ROOT}\tks3_tools\sliderGUI.m</file>
+      <file>${PROJECT_ROOT}\tks3_tools\tks3_guitools.m</file>
+    </fileset.depfun>
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\FishInspector\for_testing" name="FishInspector.exe" optional="false">C:\Users\tobi\Documents\Freelancer\UFZ\FishInspector_v.1.03_LICENSE_UPDATED_SEP_2018\implementation\FishInspector\for_testing\FishInspector.exe</file>
+      <file location="${PROJECT_ROOT}\FishInspector\for_testing" name="splash.png" optional="false">C:\Users\tobi\Documents\Freelancer\UFZ\FishInspector_v.1.03_LICENSE_UPDATED_SEP_2018\implementation\FishInspector\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\FishInspector\for_testing" name="readme.txt" optional="true">C:\Users\tobi\Documents\Freelancer\UFZ\FishInspector_v.1.03_LICENSE_UPDATED_SEP_2018\implementation\FishInspector\for_testing\readme.txt</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files (x86)\MATLAB\R2015b</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.2</osver>
+      <os32>true</os32>
+      <os64>false</os64>
+      <arch>win32</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

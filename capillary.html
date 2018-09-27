@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FishInspector Help - Capillary</title>
+		<style>
+			body {
+				background-color: #DEDEDE;
+				font-family: Myriad Pro;
+				color: #303030;
+				}
+            .header {
+				background: #FF7300;
+				line-height: 250%;
+				text-indent: 1em;
+				}
+            .description {
+				margin-top: 0.5em;
+				margin-bottom: 0.5em;
+				margin-left: 1em;
+				line-height: 175%;
+				}
+            .parameter {
+				background: #808080;
+				line-height: 250%;
+				}
+        </style>
+    </head>
+	
+    <body>
+	
+		<div class="header">
+			<h1>FishInspector Help - Capillary</h1>
+		</div>
+		
+		<div class="description">
+			The detection of the capillary is done in two steps.<br>
+			First, a binary image is generated, using a dynamic threshold based on Otsu's mehtod [1], MULTIPLIED by the "threshMultiplier" variable.<br>
+			Second, based on the binary image, the position of the capillary wall is estimated. <br>
+			Regions at the border of the image with strong background variations and/or artefacts from stitching may affect detection of the capillary wall.
+			Those regions can be excluded by adjusting the "vertCutoff" and "horizCutoff" variables, which represent fractions of the image-height and image-width respectively.
+
+		</div>
+		
+		<div class="parameter">
+			<ul>threshMultiplier<br>
+			This parameter does...
+			</ul>
+			<ul>vertCutoff & horizCutoff<br>
+			This parameter does...</ul>
+			<ul>steps<br>
+			This parameter does...</ul>
+		</div>
+		
+		<br><br>
+		<pre>[1] Otsu, N., "A Threshold Selection Method from Gray-Level Histograms," IEEE Transactions on Systems, Man, and Cybernetics, Vol. 9, No. 1, 1979, pp. 62-66.</pre>
+    </body>
+</html>
