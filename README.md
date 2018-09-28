@@ -17,6 +17,7 @@ Manuscript coming soon...
 
 ## License
 
-This project is licensed under a GNU General Public License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under a GNU General Public License - see the [LICENSE](LICENSE) file for details and also this [file](License.txt). 
+
 
 
