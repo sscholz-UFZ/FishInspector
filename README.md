@@ -10,7 +10,7 @@ The software FishInspector allows annotation of features in images of zebrafish 
 
 Citations can be made using the following DOI:
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1409435.svg)](https://doi.org/10.5281/zenodo.1409435)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1422642.svg)](https://doi.org/10.5281/zenodo.1422642)
 
 Manuscript coming soon...
 
