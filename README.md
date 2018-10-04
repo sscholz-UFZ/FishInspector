@@ -12,8 +12,7 @@ Citations can be made using the following DOI:
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1422642.svg)](https://doi.org/10.5281/zenodo.1422642)
 
-Manuscript coming soon...
-
+*Teixido, E., Kießling, T.R., Krupp, E., Quevedo, C., Muriana, A., Scholz, S., 2018. Automated morphological feature assessment for zebrafish embryo developmental toxicity screens. Tox. Sci. accepted.*
 
 ## License
 
