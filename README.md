@@ -5,6 +5,24 @@ The software FishInspector allows annotation of features in images of zebrafish 
 
 ## [Available for Download Here](https://github.com//sscholz-UFZ/FishInspector/releases)
 
+## FishInspector Training Workshop
+*04.02. (starting at 2 pm) - 05.02.2019 (ending at 2 pm)*
+
+![](banner_workshop.png)
+
+This workshop is designed to introduce you into the FishInspector software for annotation of morphological features in images of zebrafish embryos.
+
+**Intended for**
+Scientist and technicians that analyse (zebra)fish embryo phenotypes. Engineers/companies that develop tools for automated imaging of (zebra)fish embryos.
+
+**You will learn**
+The workshop will be devided in 3 sections: 
+Hands-on training to annotate morphological features using the FishInspector software
+Analysis of the annotated features using custom KNIME workflows (concentration-response curves, heatmaps)
+For advanced users: development of your own FishInspector plugin (e.g. for features currently not implemented).
+
+More information [here](http://www.ufz.de/index.php?en=45300)
+
 ## Referencing
 
 Citations can be made using the following DOI:
