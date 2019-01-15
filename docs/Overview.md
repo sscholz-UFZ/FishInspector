@@ -141,7 +141,7 @@ Or select the **Scan folder for images** tab under the main menu bar and click !
 to open the file dialog, browse and select the folder where the images are stored.<br>
 The names of the images loaded are displayed in the list box on the left of the main window.
 
-### Load image from image list file
+### Load images from image list file
 There are two options to proceed:<br> 
 Select **File** → **Open image list** on the menu bar to open the file dialog, browse and select the text file (.txt) containing the full path to the images.
 
