@@ -4,12 +4,15 @@
 Once the FishInspector starts up, the main window appears:
 ![Main window](https://github.com/sscholz-UFZ/FishInspector/blob/docs/docs/Images/Main_window.jpg)
 >1. Main menu bar
->2. Set input / Filter images
->3. List box of loaded images
->4. Image box display
->5. Parameter file selection
->6. Open/save shape data
->7. Features editor box
+>2. Set input (scan from folder or list images from file)
+>3. Filter images
+>4. Zoom and orientation tool
+>5. List box of loaded images
+>6. Parameter file selection
+>7. Open/save shape data
+>8. Image box display 
+>9. Features editor box
+
 ---
 ## Main menu bar commands
 This section describes all menu commands in the **File**, **Run**, **Export**, **Settings** and **Help** menus. 
@@ -161,8 +164,8 @@ To gradually enlarge or reduce the image click the icon with the plus or minus s
 ![zoom](https://github.com/sscholz-UFZ/FishInspector/blob/docs/docs/Images/Zoom_tool.jpg)
  
 
-Click the ![orientation](https://github.com/sscholz-UFZ/FishInspector/blob/docs/docs/Images/orientation_icon.jpg) icon in the Zoom box to display the fish to its 
-standard orientation. 
+Click the ![orientation](https://github.com/sscholz-UFZ/FishInspector/blob/docs/docs/Images/orientation_icon.jpg) icon in the Zoom box to display the fish to its standard orientation. In case the fish is not displayed in the standard orientation after activation of the  icon, the orientation of the fish has not been identified correctly. In this case the fish orientation feature has to be corrected manually (see ...). 
+
 > Standard orientation is defined as the fish with the head on the left, tail on the right and yolk sac on the bottom part. 
 
 
