@@ -7,7 +7,7 @@ Once the FishInspector starts up, the main window appears:
 >2. Set input (scan from folder or list images from file)
 >3. Filter images
 >4. Zoom and orientation tool
->5. List box of loaded images
+>5. List of loaded images
 >6. Parameter file selection
 >7. Open/save shape data
 >8. Image box display 
