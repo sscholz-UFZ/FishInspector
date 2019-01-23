@@ -3,7 +3,7 @@
 ## System Requirements
 This program is supported and has been tested on Windows 7. We cannot guarantee full functionality if the software is installed on other Windows versions. 
 For other operating systems you can run the script from the source code (freely available on GitHub).
-This software has been written in Matlab R2015b and you will need a Matlab license if you want to modify the code and compile a new version. 
+This software has been written in Matlab R2015b and you will need a Matlab license if you want to modify the code. The software may run also on MacOS. However, it must be executed from the source code with a MacOS MATLAB installation or it should be compiled on MacOS MATLAB for being executed in a MacOS environment. Both has not been tested. If you run the software successfully on MacOS please let us know.
 
 >**NOTE:** FishInspector software requires Matlab Runtime v 9.0. The executable windows file already includes its installation.
 
@@ -17,7 +17,7 @@ Installing the FishInspector software
 |Convention|Definition|
 |----------|----------|
 |Forward Arrow → |The forward arrow symbol → instructs you to select a series of menu items in a specific order. For example, Tools → Options is equivalent to: From the Tools menu, select Options. |
-|**Boldface** font |A **boldface** font indicates that the given word(s) are shown that way in on a toolbar button or a menu selection. For example, if you are told to select a menu item in a particular order, such as **Tools** → **Options**, or to click **Save**. |
+|**Boldface** font |A **boldface** font indicates that the given word(s) are shown as toolbar button or menu selection. For example, if you are told to select a menu item in a particular order, such as **Tools** → **Options**, or to click **Save**. |
 |_Italic_ font | An italic font indicates the introduction of important terminology. Expect to find an explanation in the same paragraph or elsewhere in the guide. |
 
 ## Installing FishInspector
