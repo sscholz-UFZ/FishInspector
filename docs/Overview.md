@@ -90,7 +90,7 @@ Given that establishment of a 100% correct automated feature detection would be 
 The parameters of all features are stored using a json file. The FishInspector software comes with a set of default parameters automatically loaded from the parameter set box in the left bottom part of the main window. Modified parameters can be saved in a specific file that can then be loaded in subsequent analyses with similar images).  
 
 This menu allows to:<br>
-**Edit File** – (Not working for the moment)<br>
+**Edit File** – (Not active in version 1.03)<br>
 **Open Directory** – browse the file system to retrieve the folder where the parameters are saved.<br>
 **Rescan Directory** – Refreshes the current directory that contains the parameters.<br>
 **Create New Parameter File** – Allow to create a new file containing new set of parameters.<br>
@@ -149,6 +149,8 @@ The names of the images loaded are displayed in the list box on the left of the 
 ### Image filter
 The image filter box allows you to refine the image list to just load and process selected images. Specific words can be used to selectively analyse images (e.g. “.bmp” will load only images with bmp format, or “_2” will load images which name contains these characters).
 
+You can also deselect images by unchecking the tick boxes at the image file names (see [Process image](#Process-Image)).
+
 ### Zoom tool
 The **Zoom** box is situated on the right top of the main window and allows you to adjust the image zoom to:<br> 
 **Fit fish** – it resizes the image based on the contour of the fish.<br>
@@ -164,7 +166,7 @@ To gradually enlarge or reduce the image click the icon with the plus or minus s
 ![zoom](https://github.com/sscholz-UFZ/FishInspector/blob/docs/docs/Images/Zoom_tool.jpg)
  
 
-Click the ![orientation](https://github.com/sscholz-UFZ/FishInspector/blob/docs/docs/Images/orientation_icon.jpg) icon in the Zoom box to display the fish to its standard orientation. In case the fish is not displayed in the standard orientation after activation of the  icon, the orientation of the fish has not been identified correctly. In this case the fish orientation feature has to be corrected manually (see ...). 
+Click the ![orientation](https://github.com/sscholz-UFZ/FishInspector/blob/docs/docs/Images/orientation_icon.jpg) icon in the Zoom box to display the fish to its standard orientation. In case the fish is not displayed in the standard orientation after activation of the  icon, the orientation of the fish has not been identified correctly. In this case the fish orientation feature has to be corrected manually (see [Fish Orientation](#Fish-Orientation)). 
 
 > Standard orientation is defined as the fish with the head on the left, tail on the right and yolk sac on the bottom part. 
 
