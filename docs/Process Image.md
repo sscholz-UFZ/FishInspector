@@ -5,7 +5,7 @@ Once the images have been loaded you can start the analysis. Click on one image 
 
 > Click the ![orientation](https://github.com/sscholz-UFZ/FishInspector/blob/docs/docs/Images/orientation_icon.jpg) icon in the **Zoom** box to display the fish to its standard orientation (more convenient for the visual analysis).
 
-Before starting manual correction of features check if the parameter file (see section [Set parameters](#Set-parameters)) is the one you intend to use. Every time the FishInspector is started it loads the default parameter file. It is recommended that parameter files are optimised to reduce requirement for manual editing.
+Before starting manual correction of features check if the parameter file (see section [Set parameters](https://github.com/sscholz-UFZ/FishInspector/blob/docs/docs/Overview.md#set-parameters)) is the one you intend to use. Every time the FishInspector is started it loads the default parameter file. It is recommended that parameter files are optimised to reduce requirement for manual editing.
 
 > The tick mark on the left of the image name on the list box indicates that the analysis of the image is enabled, unticked images will not be analysed. Images may be deselected e.g. in case of insufficient positioning. 
 
@@ -14,10 +14,11 @@ Before starting manual correction of features check if the parameter file (see s
 ## Feature Correction
 The software permits modification of the parameters used for the automatic feature detection or manual correction given that establishment of a 100% correct automated feature detection is very challenging.
 
-Click on the ![](https://github.com/sscholz-UFZ/FishInspector/blob/docs/docs/Images/edit_feature.jpg) icon to access the editor window of a specific feature. The best way to check and correct features is from left to right due to the dependency on detection of some features (see section [Features editor box](#Features-Editor-box)).<br>
-First try to correct the parameters of the feature to see if its detection can be improved, and save parameters if you want them to be used for subsequent image analysis (see [Modify and save parameters](#Modify-and-save-parameters). If no further improvement by changing parameters can be achieved, correct the feature manually (see section [Edit Feature](#Edit-Feature)). Hold click and drag the mouse to correct the annotated lines or points.
+Click on the ![](https://github.com/sscholz-UFZ/FishInspector/blob/docs/docs/Images/edit_feature.jpg) icon to access the editor window of a specific feature. The best way to check and correct features is from left to right due to the dependency on detection of some features (see section [Features editor box](https://github.com/sscholz-UFZ/FishInspector/blob/docs/docs/Overview.md#features-editor-box)).<br>
+First try to correct the parameters of the feature to see if its detection can be improved, and save parameters if you want them to be used for subsequent image analysis (see [Modify and save parameters](https://github.com/sscholz-UFZ/FishInspector/blob/docs/docs/Overview.md#Modify-and-save-parameters). If no further improvement by changing parameters can be achieved, correct the feature manually (see section [Edit Feature](https://github.com/sscholz-UFZ/FishInspector/blob/docs/docs/Overview.md#Edit-feature)). Hold click and drag the mouse to correct the annotated lines or points.
 Once the feature is corrected, click on **Save to SHAPE.json** to confirm and save changes. Any dependent features will be updated as well.
 > To disable the update of dependent features click on **Run → Update depended features**.
+
 
 ---
 
