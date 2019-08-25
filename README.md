@@ -5,6 +5,10 @@ The software FishInspector allows annotation of features in images of zebrafish 
 
 ## [Available for Download Here](https://github.com//sscholz-UFZ/FishInspector/releases)
 
+## )User Guide
+
+The complete user guide can be checked [here](https://github.com/sscholz-UFZ/FishInspector/blob/master/docs/Index.md)
+
 ## Referencing
 
 Citations can be made using the following DOI:
