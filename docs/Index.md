@@ -38,4 +38,35 @@
   * [Fish Eye](https://github.com/sscholz-UFZ/FishInspector/blob/docs/docs/Process_Image.md#fish-eye)
     + [Parameters](https://github.com/sscholz-UFZ/FishInspector/blob/docs/docs/Process_Image.md#parameters-2)
     + [Display options](https://github.com/sscholz-UFZ/FishInspector/blob/docs/docs/Process_Image.md#display-options-2)
+  * [Fish Orientation](https://github.com/sscholz-UFZ/FishInspector/blob/docs/docs/Process_Image.md#fish-orientation)
+    + [Display options](https://github.com/sscholz-UFZ/FishInspector/blob/docs/docs/Process_Image.md#display-options-3)
+    + [Output](https://github.com/sscholz-UFZ/FishInspector/blob/docs/docs/Process_Image.md#output)
+  * [Central dark line](https://github.com/sscholz-UFZ/FishInspector/blob/docs/docs/Process_Image.md#central-dark-line)
+    + [Parameters](https://github.com/sscholz-UFZ/FishInspector/blob/docs/docs/Process_Image.md#parameters-3)
+    + [Display options](https://github.com/sscholz-UFZ/FishInspector/blob/docs/docs/Process_Image.md#display-options-4)
+  * [Bladder](https://github.com/sscholz-UFZ/FishInspector/blob/docs/docs/Process_Image.md#bladder)
+    + [Parameters](https://github.com/sscholz-UFZ/FishInspector/blob/docs/docs/Process_Image.md#parameters-4)
+    + [Display options](https://github.com/sscholz-UFZ/FishInspector/blob/docs/docs/Process_Image.md#display-options-5)
+  * [Notochord](https://github.com/sscholz-UFZ/FishInspector/blob/docs/docs/Process_Image.md#notochord)
+    + [Parameters](https://github.com/sscholz-UFZ/FishInspector/blob/docs/docs/Process_Image.md#parameters-5)
+    + [Display options](https://github.com/sscholz-UFZ/FishInspector/blob/docs/docs/Process_Image.md#display-options-6)
+  * [Otolith](https://github.com/sscholz-UFZ/FishInspector/blob/docs/docs/Process_Image.md#Otolith)
+    + [Parameters](https://github.com/sscholz-UFZ/FishInspector/blob/docs/docs/Process_Image.md#parameters-6)
+    + [Display options](https://github.com/sscholz-UFZ/FishInspector/blob/docs/docs/Process_Image.md#display-options-7)
+  * [Yolk sac](https://github.com/sscholz-UFZ/FishInspector/blob/docs/docs/Process_Image.md#yolk-sac)
+    + [Parameters](https://github.com/sscholz-UFZ/FishInspector/blob/docs/docs/Process_Image.md#parameters-7)
+    + [Display options](https://github.com/sscholz-UFZ/FishInspector/blob/docs/docs/Process_Image.md#display-options-8)
+  * [Pericard](https://github.com/sscholz-UFZ/FishInspector/blob/docs/docs/Process_Image.md#pericard)
+    + [Parameters](https://github.com/sscholz-UFZ/FishInspector/blob/docs/docs/Process_Image.md#parameters-8)
+  * [Pigmentation](https://github.com/sscholz-UFZ/FishInspector/blob/docs/docs/Process_Image.md#pigmentation)
+    + [Parameters](https://github.com/sscholz-UFZ/FishInspector/blob/docs/docs/Process_Image.md#parameters-9)
+    + [Display options](https://github.com/sscholz-UFZ/FishInspector/blob/docs/docs/Process_Image.md#display-options-9)
+  
+  
+  
+    
+  
+  
+  
+  
    
