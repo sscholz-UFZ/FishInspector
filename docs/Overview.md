@@ -56,7 +56,7 @@ This box displays the current set of features available for annotation:<br>
 The detection of various features is organized hierarchically, that is, in order to locate a certain feature the locations of previously detected features are included. For example, detection of the contour of the embryo is guided by the capillary boundaries, since the software expects the embryo to be located inside the capillary (or least in a virtual capillary). Subsequently, other 
 features are identified in a stepwise manner (See Figure 1). Hence, the detection of specific morphological features is dependent on the detection of other features and is facilitated by excluding regions that may interfere. The identification of the regions of interest is driven by visual observation and measurement of generic object properties. For example, once the contour of the fish is localized, the eye is detected by searching for a dark object either in the right or left half of the zebrafish.<br>
 
-![Figure 1]()
+<img src="https://github.com/sscholz-UFZ/FishInspector/blob/master/docs/Images/figure1.jpg" width="700"><br>
 >**Figure 1.** Stepwise feature recognition by the FishInspector software. The “central dark line”, represents a structure of high contrast between the upper and bottom part of the fish, starting from the fish eye. This feature is only used to support the identification of other features and does not refer to a morphologically relevant entity. *Images without capillary need to be modified (i.e. insertion of a virtual capillary)by an automated workflow to be compliant with the FishInspector software (KNIME workflow available ![here](https://github.com/eteixido/Knime-workflows-FishInspector#conversion-workflow-for-non-capillary-images)).
 
 |||
