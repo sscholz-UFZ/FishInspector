@@ -1,3 +1,7 @@
+Note: This github repository is no longer maintained. Newer versions of the software are available on Helmholtz Code base:
+https://codebase.helmholtz.cloud/ufz/tb3-cite/etox/hcs-zebrafish-embryo/FishInspector
+
+
 # FishInspector
 **Annotation of features from zebrafish embryos**
 
