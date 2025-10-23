@@ -1,3 +1,6 @@
+Note that software has moved to a different repository on gitlab
+https://codebase.helmholtz.cloud/ufz/tb3-cite/etox/hcs-zebrafish-embryo/FishInspector
+
 # FishInspector
 **Annotation of features from zebrafish embryos**
 
